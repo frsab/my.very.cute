@@ -8,7 +8,7 @@
 define('BASE', 'http://127.0.0.1/my.very.cute/');
 define('DEFAULT_METHOD', 'index');
 define('DEBUG', true);
-
+//adda
 // Defs:
 function dbg($var) {global $$var; if (DEBUG) echo ((isset($$var) ? ($var.': '.(is_array($$var)?print_r($$var, true):$$var)) : $var)).'<br />';}
 function view($view_file, $vars = array(), $capture = false) {
